@@ -2,7 +2,7 @@ import socket
 import sys
 
 if len(sys.argv) < 3:
-    raise
+    raise Exception()
 
 path = sys.argv[1]
 

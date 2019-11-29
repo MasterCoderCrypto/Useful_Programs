@@ -12,6 +12,7 @@ Parameter benötigt der den weiteren Pfad mit der Datei als Abschluss angibt.
 Im Skript gibt es verschiedene Variablen, die konfigurierbar sind.
 
 default_x: die weite des Screens
-default_y:die Höhe des Screens
-default_bg_color:die Hintergrundfarbe des Screens
-default_fps:die Taktrate(FPS)
+default_y: die Höhe des Screens
+default_bg_color: die Hintergrundfarbe des Screens
+default_fps: die Taktrate(FPS)
+BASE_DIR: der Standardpfad

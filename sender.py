@@ -12,7 +12,7 @@ class PATHERROR(Exception):
         return self.path + ' does not exist'
 
 if len(sys.argv) <= 4 or '-ip' not in sys.argv or '-p' not in sys.argv:
-    raise
+    raise Exception()
 
 ip = (sys.argv[sys.argv.index('-ip')+1] if not ('-I') in sys.argv else IP)
 path = sys.argv[sys.argv.index('-p')+1]

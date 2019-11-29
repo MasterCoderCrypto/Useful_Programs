@@ -1,0 +1,17 @@
+#README zu pygame_file.py
+
+Dieses Programm erstellt eine Datei, die ein vorgefertigtes Pygame Skelett initialisiert.
+Es muss in der Kommand-Shell mit einem zweiten Parameter aufgerufen werden.
+
+Der zweite Parameter kann die absolute Pfadangabe zur Datei, in der das Skelett gespeichert werden soll, sein, 
+oder falls die Option "-B" gesetzt wurde nur der Dateiname oder weitere Pfadangaben ab BASE_DIR.
+
+Die Option "-B" regelt, dass für den Pfad der in BASE_DIR festgelegte Ordner genutzt wird, allerdings wird nun ein zweiter 
+Parameter benötigt der den weiteren Pfad mit der Datei als Abschluss angibt.
+
+Im Skript gibt es verschiedene Variablen, die konfigurierbar sind.
+
+default_x: die weite des Screens
+default_y:die Höhe des Screens
+default_bg_color:die Hintergrundfarbe des Screens
+default_fps:die Taktrate(FPS)
